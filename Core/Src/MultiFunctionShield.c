@@ -167,7 +167,6 @@ void MultiFunctionShield_WriteNumberToSegment(uint8_t digit)
 	}
 
 
-
 void Display_Waiting(void)
 	{
 	SEGMENT_VALUE[0] = SEGMENT_MINUS;
