@@ -92,11 +92,11 @@ Change the clock tree to adjust the rates at which the LEDs blink.
 
 ## Part 2 Questions (3 pts)
 
-1. What has happened to the speed of the timers? [*answer here*]
+1. What has happened to the speed of the timers? The timers slowed down by a factor of 8
 
-2. What is the new frequency of LED D1? [*answer here*]
+2. What is the new frequency of LED D1? 1/8 Hz
 
-3. When we changed the frequency, did the Seven-Segment Light update rate change?  (hint, look at the clocks driving the APB1, APB2 buses and which timers are on which bus.  Recall that the Seven-Segment timer is Tim17) [*answer here*]
+3. When we changed the frequency, did the Seven-Segment Light update rate change?  (hint, look at the clocks driving the APB1, APB2 buses and which timers are on which bus.  Recall that the Seven-Segment timer is Tim17) The seven segment display's clock was slowed down too since it is part of the clock tree that we changed.
 
 ## Part 3: Reaction Timer (5 pts)
 
